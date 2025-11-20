@@ -1,6 +1,6 @@
 # EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD
-## Name: Dheena Darshini Karthik Dheepan
-## Regno: 212223240030
+## Name: MARINO SARISHA T
+## Regno: 212223240084
 
 ## Aim: 
 To Interface a 4X4 matrix keypad and show the output on 16X2 LCD display to ARM controller , and simulate it in Proteus
