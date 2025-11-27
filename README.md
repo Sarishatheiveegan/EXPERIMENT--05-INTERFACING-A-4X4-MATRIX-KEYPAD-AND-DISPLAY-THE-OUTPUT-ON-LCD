@@ -1,6 +1,7 @@
 # EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD
-## Name: MARINO SARISHA T
-## Regno: 212223240084
+
+### Name : MARINO SARISHA T
+### Register NO: 212223240084
 
 ## Aim: 
 To Interface a 4X4 matrix keypad and show the output on 16X2 LCD display to ARM controller , and simulate it in Proteus
@@ -179,12 +180,14 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 ![image](https://user-images.githubusercontent.com/36288975/233856904-99eb708a-c907-4595-9025-c9dbd89b8879.png)
 
-## CIRCUIT DIAGRAM 
- <img width="1134" height="873" alt="image" src="https://github.com/user-attachments/assets/6aefcbcd-65e5-4173-b669-0eb53a00b1be" />
+## CIRCUIT DIAGRAM :
+ 
+<img width="953" height="724" alt="image" src="https://github.com/user-attachments/assets/11f58de8-880d-4c6e-a7e0-ce571427872a" />
 
 
 ## STM 32 CUBE PROGRAM :
-```python
+
+```
 #include "main.h"
 #include <stdbool.h>
 #include "lcd.h"
@@ -417,15 +420,19 @@ void key()
 						HAL_Delay(500);
 
 }
+
 ```
 
 ## Output screen shots of proteus  :
- <img width="1639" height="907" alt="image" src="https://github.com/user-attachments/assets/01852890-a08c-4382-b993-bf8b12798457" />
-
  
+
+ <img width="1920" height="1080" alt="Screenshot 2025-10-09 114400" src="https://github.com/user-attachments/assets/c1454e4b-da49-400c-8656-cebdb630180d" />
+
+
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- 
- <img width="1128" height="940" alt="image" src="https://github.com/user-attachments/assets/f4411711-ad5d-4805-aeb7-d83edf280e56" />
 
+ <img width="1013" height="847" alt="image" src="https://github.com/user-attachments/assets/7b7993c9-b9ef-4e1b-b73b-b97bec1779d4" />
+
+ 
 ## Result :
 Interfacing a 4x4 keypad with ARM microcontroller are simulated in proteus and the results are verified.
